@@ -57425,7 +57425,7 @@ Q.l6.prototype={
 aG:function(){return new Q.HI(C.m)}}
 Q.HI.prototype={
 S:function(a,b){var s=null,r=b.a4(t.w).f.a.a
-return M.adn(E.abj(!1,!0,L.lM("SRIT PROS CONTEST WEB PORTAL",s,s,s,s,s,s)),E.adu(T.yV(M.f_(s,T.a7u(H.a([new Q.Bp(r,s),new Q.rT(r,s)],t.p),C.dT,C.dU),s,s,s,s,s,s),s,s)))}}
+return M.adn(E.abj(!1,!0,L.lM("Get The Success . . . !",s,s,s,s,s,s)),E.adu(T.yV(M.f_(s,T.a7u(H.a([new Q.Bp(r,s),new Q.rT(r,s)],t.p),C.dT,C.dU),s,s,s,s,s,s),s,s)))}}
 Q.Bp.prototype={
 S:function(a,b){var s=null
 return M.f_(s,T.yV(new U.ru(M.anD(s,s,new L.qc("images/website_logo.jpg",s,s)),200,200,s),s,s),s,s,s,s,new V.az(20,20,20,20),this.c/2)}}
