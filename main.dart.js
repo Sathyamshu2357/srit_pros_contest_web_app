@@ -72851,7 +72851,7 @@ o=M.ai(p,Z.l3(!0,p,!1,p,q.e,p,p,p,2,L.et(!0,new F.ct(4,K.f4(new P.bo(25,25)),C.a
 n=M.ai(p,D.kf(M.ai(p,L.bk("LOGIN",p,p,p,p,p,p,p),C.i,p,p,p,p,p,p,new V.a1(15,15,15,15),p,p,p),new Q.ag9(q,b),p),C.i,p,p,p,p,p,p,new V.a1(20,20,20,20),p,p,p)
 s=A.ly(p,p,new V.c8(C.BK.i(0,900),t.FT),p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p)
 r=t.p
-return T.bJ(H.a([m,o,n,M.ai(p,D.kf(M.ai(p,T.db(T.cR(H.a([L.dn(C.t_,p,40),T.dr(p,p,20),L.bk("Download Mobile App",p,p,p,p,p,p,p)],r),C.x,C.r,C.u,p),p,p),C.i,p,p,p,p,p,p,p,p,p,p),new Q.aga(),s),C.i,p,p,p,p,p,p,new V.a1(20,20,20,20),p,p,p)],r),C.x,C.r,C.u)}}
+return T.bJ(H.a([m,o,n,M.ai(p,D.kf(M.ai(p,T.db(T.cR(H.a([L.dn(C.t_,p,40),T.dr(p,p,20),L.bk("Download Mobile App",p,p,p,p,p,p,p)],r),C.x,C.r,C.u,p),p,p),C.i,p,p,p,p,p,p,p,p,p,p),new Q.aga(),s),C.i,p,p,p,p,p,p,new V.a1(20,20,20,20),p,p,270)],r),C.x,C.r,C.u)}}
 Q.ag9.prototype={
 $0:function(){var s=0,r=P.K(t.H),q=this,p
 var $async$$0=P.F(function(a,b){if(a===1)return P.H(b,r)
@@ -72882,7 +72882,7 @@ Q.aga.prototype={
 $0:function(){var s=0,r=P.K(t.H)
 var $async$$0=P.F(function(a,b){if(a===1)return P.H(b,r)
 while(true)switch(s){case 0:s=2
-return P.Q(T.alJ("https://github.com/Sathyamshu2357/srit_pros_contest_web_app/raw/main/app-release.apk"),$async$$0)
+return P.Q(T.alJ("https://github.com/Sathyamshu2357/srit_pros_contest_web_app/raw/main/app-arm64-v8a-release.apk"),$async$$0)
 case 2:return P.I(null,r)}})
 return P.J($async$$0,r)},
 $S:15}
