@@ -72882,7 +72882,7 @@ Q.aga.prototype={
 $0:function(){var s=0,r=P.K(t.H)
 var $async$$0=P.F(function(a,b){if(a===1)return P.H(b,r)
 while(true)switch(s){case 0:s=2
-return P.Q(T.alJ("https://github.com/Sathyamshu2357/srit_pros_contest_web_app/raw/main/app-arm64-v8a-release.apk"),$async$$0)
+return P.Q(T.alJ("https://github.com/Sathyamshu2357/srit_pros_contest_web_app/releases/download/1.0.0/app-arm64-v8a-release.apk"),$async$$0)
 case 2:return P.I(null,r)}})
 return P.J($async$$0,r)},
 $S:15}
