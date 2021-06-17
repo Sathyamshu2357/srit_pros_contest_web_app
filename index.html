@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <!--
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -12,117 +12,147 @@
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPKMY3H6R7"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPKMY3H6R7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-NPKMY3H6R7');
-  </script>
-  <base href="/">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+        gtag('config', 'G-NPKMY3H6R7');
+    </script>
+    <base href="/">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="srit_pros_contest_web_app">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
 
-  <title>srit_virtual_expo_web_app</title>
-  <link rel="manifest" href="manifest.json">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="srit_pros_contest_web_app">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <title>srit_virtual_expo_web_app</title>
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
-  <!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
 
-  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 
-  <script>
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-    var _0x122b=['3467atvwIw','G-HKF9Z5EPVJ','179171OGRwKp','1FuGwSG','177480CodDQX','initializeApp','178297xBpxlY','48283nvpuEO','AIzaSyCvZTEX_DT9js5jBkGKUqLC8Kbm2vn3Op0','srit-virtual-expo','183919aKBtdW','365816509616','221845VlTAGZ','108MeBmft','srit-virtual-expo.appspot.com','analytics'];var _0x4f4073=_0x3bbb;function _0x3bbb(_0x3d4af7,_0x5ae81f){_0x3d4af7=_0x3d4af7-0x168;var _0x122bab=_0x122b[_0x3d4af7];return _0x122bab;}(function(_0x38c0e0,_0xcd3d26){var _0x1bb9b7=_0x3bbb;while(!![]){try{var _0x17c2b7=parseInt(_0x1bb9b7(0x16b))*parseInt(_0x1bb9b7(0x174))+-parseInt(_0x1bb9b7(0x16e))*-parseInt(_0x1bb9b7(0x171))+parseInt(_0x1bb9b7(0x168))+-parseInt(_0x1bb9b7(0x173))+parseInt(_0x1bb9b7(0x177))+-parseInt(_0x1bb9b7(0x175))+-parseInt(_0x1bb9b7(0x16d));if(_0x17c2b7===_0xcd3d26)break;else _0x38c0e0['push'](_0x38c0e0['shift']());}catch(_0x1513d3){_0x38c0e0['push'](_0x38c0e0['shift']());}}}(_0x122b,0x32667));var firebaseConfig={'apiKey':_0x4f4073(0x169),'authDomain':'srit-virtual-expo.firebaseapp.com','projectId':_0x4f4073(0x16a),'storageBucket':_0x4f4073(0x16f),'messagingSenderId':_0x4f4073(0x16c),'appId':'1:365816509616:web:2875fbee2c992c7d4ff775','measurementId':_0x4f4073(0x172)};firebase[_0x4f4073(0x176)](firebaseConfig),firebase[_0x4f4073(0x170)]();
+        var _0x122b = ['3467atvwIw', 'G-HKF9Z5EPVJ', '179171OGRwKp', '1FuGwSG', '177480CodDQX', 'initializeApp', '178297xBpxlY', '48283nvpuEO', 'AIzaSyCvZTEX_DT9js5jBkGKUqLC8Kbm2vn3Op0', 'srit-virtual-expo', '183919aKBtdW', '365816509616', '221845VlTAGZ', '108MeBmft', 'srit-virtual-expo.appspot.com', 'analytics'];
+        var _0x4f4073 = _0x3bbb;
 
-
-  </script>
-  <!-- This script installs service_worker.js to provide PWA functionality to
+        function _0x3bbb(_0x3d4af7, _0x5ae81f) {
+            _0x3d4af7 = _0x3d4af7 - 0x168;
+            var _0x122bab = _0x122b[_0x3d4af7];
+            return _0x122bab;
+        }(function(_0x38c0e0, _0xcd3d26) {
+            var _0x1bb9b7 = _0x3bbb;
+            while (!![]) {
+                try {
+                    var _0x17c2b7 = parseInt(_0x1bb9b7(0x16b)) * parseInt(_0x1bb9b7(0x174)) + -parseInt(_0x1bb9b7(0x16e)) * -parseInt(_0x1bb9b7(0x171)) + parseInt(_0x1bb9b7(0x168)) + -parseInt(_0x1bb9b7(0x173)) + parseInt(_0x1bb9b7(0x177)) + -parseInt(_0x1bb9b7(0x175)) + -parseInt(_0x1bb9b7(0x16d));
+                    if (_0x17c2b7 === _0xcd3d26) break;
+                    else _0x38c0e0['push'](_0x38c0e0['shift']());
+                } catch (_0x1513d3) {
+                    _0x38c0e0['push'](_0x38c0e0['shift']());
+                }
+            }
+        }(_0x122b, 0x32667));
+        var firebaseConfig = {
+            'apiKey': _0x4f4073(0x169),
+            'authDomain': 'srit-virtual-expo.firebaseapp.com',
+            'projectId': _0x4f4073(0x16a),
+            'storageBucket': _0x4f4073(0x16f),
+            'messagingSenderId': _0x4f4073(0x16c),
+            'appId': '1:365816509616:web:2875fbee2c992c7d4ff775',
+            'measurementId': _0x4f4073(0x172)
+        };
+        firebase[_0x4f4073(0x176)](firebaseConfig), firebase[_0x4f4073(0x170)]();
+    </script>
+    <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    var serviceWorkerVersion = '1180862977';
-    var scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
-      scriptLoaded = true;
-      var scriptTag = document.createElement('script');
-      scriptTag.src = 'main.dart.js';
-      scriptTag.type = 'application/javascript';
-      document.body.append(scriptTag);
-    }
+    <script>
+        var serviceWorkerVersion = '3885649158';
+        var scriptLoaded = false;
 
-    if ('serviceWorker' in navigator) {
-      // Service workers are supported. Use them.
-      window.addEventListener('load', function () {
-        // Wait for registration to finish before dropping the <script> tag.
-        // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.
-        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
-        navigator.serviceWorker.register(serviceWorkerUrl)
-          .then((reg) => {
-            function waitForActivation(serviceWorker) {
-              serviceWorker.addEventListener('statechange', () => {
-                if (serviceWorker.state == 'activated') {
-                  console.log('Installed new service worker.');
-                  loadMainDartJs();
-                }
-              });
+        function loadMainDartJs() {
+            if (scriptLoaded) {
+                return;
             }
-            if (!reg.active && (reg.installing || reg.waiting)) {
-              // No active web worker and we have installed or are installing
-              // one for the first time. Simply wait for it to activate.
-              waitForActivation(reg.installing ?? reg.waiting);
-            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-              // When the app updates the serviceWorkerVersion changes, so we
-              // need to ask the service worker to update.
-              console.log('New service worker available.');
-              reg.update();
-              waitForActivation(reg.installing);
-            } else {
-              // Existing service worker is still good.
-              console.log('Loading app from service worker.');
-              loadMainDartJs();
-            }
-          });
+            scriptLoaded = true;
+            var scriptTag = document.createElement('script');
+            scriptTag.src = 'main.dart.js';
+            scriptTag.type = 'application/javascript';
+            document.body.append(scriptTag);
+        }
 
-        // If service worker doesn't succeed in a reasonable amount of time,
-        // fallback to plaint <script> tag.
-        setTimeout(() => {
-          if (!scriptLoaded) {
-            console.warn(
-              'Failed to load app from service worker. Falling back to plain <script> tag.',
-            );
+        if ('serviceWorker' in navigator) {
+            // Service workers are supported. Use them.
+            window.addEventListener('load', function() {
+                // Wait for registration to finish before dropping the <script> tag.
+                // Otherwise, the browser will load the script multiple times,
+                // potentially different versions.
+                var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+                navigator.serviceWorker.register(serviceWorkerUrl)
+                    .then((reg) => {
+                        function waitForActivation(serviceWorker) {
+                            serviceWorker.addEventListener('statechange', () => {
+                                if (serviceWorker.state == 'activated') {
+                                    console.log('Installed new service worker.');
+                                    loadMainDartJs();
+                                }
+                            });
+                        }
+                        if (!reg.active && (reg.installing || reg.waiting)) {
+                            // No active web worker and we have installed or are installing
+                            // one for the first time. Simply wait for it to activate.
+                            waitForActivation(reg.installing ?? reg.waiting);
+                        } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+                            // When the app updates the serviceWorkerVersion changes, so we
+                            // need to ask the service worker to update.
+                            console.log('New service worker available.');
+                            reg.update();
+                            waitForActivation(reg.installing);
+                        } else {
+                            // Existing service worker is still good.
+                            console.log('Loading app from service worker.');
+                            loadMainDartJs();
+                        }
+                    });
+
+                // If service worker doesn't succeed in a reasonable amount of time,
+                // fallback to plaint <script> tag.
+                setTimeout(() => {
+                    if (!scriptLoaded) {
+                        console.warn(
+                            'Failed to load app from service worker. Falling back to plain <script> tag.',
+                        );
+                        loadMainDartJs();
+                    }
+                }, 4000);
+            });
+        } else {
+            // Service workers not supported. Just drop the <script> tag.
             loadMainDartJs();
-          }
-        }, 4000);
-      });
-    } else {
-      // Service workers not supported. Just drop the <script> tag.
-      loadMainDartJs();
-    }
-  </script>
+        }
+    </script>
 </body>
 
 </html>
