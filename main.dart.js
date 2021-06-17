@@ -74236,7 +74236,7 @@ D.am6.prototype={
 $1:function(a){var s,r=document.createElement("iframe")
 r.width="160"
 r.height="25"
-r.src="https://sathyamshu2357.github.io/try/"
+r.src="https://sathyamshu2357.github.io/downloadSritVirtualExpo/"
 s=r.style
 s.border="none"
 return r},
